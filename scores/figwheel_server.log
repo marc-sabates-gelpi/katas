@@ -1,0 +1,408 @@
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.626 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.268 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/scores/views.cljs   line:7  column:5  ----[0m
+
+  [1mUse of undeclared Var scores.views/product-details[0m
+
+  [36m 4[0m  [36m(defn main-panel [][0m
+  [36m 5[0m  [36m  [:div[0m
+  [36m 6[0m  [36m   [:h2 "Product Page"][0m
+  [33m 7[0m  [1m   [product-details][0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var scores.views/product-details[0m
+  [36m 8[0m  [36m   [product-ratings]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn product-details [][0m
+  [36m11[0m  [36m  (fn [][0m
+  [36m12[0m  [36m    [:div {:id "product-details"} "Bli bli bli"]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/scores/views.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/scores/views.cljs   line:8  column:5  ----[0m
+
+  [1mUse of undeclared Var scores.views/product-ratings[0m
+
+  [36m 4[0m  [36m(defn main-panel [][0m
+  [36m 5[0m  [36m  [:div[0m
+  [36m 6[0m  [36m   [:h2 "Product Page"][0m
+  [36m 7[0m  [36m   [product-details][0m
+  [33m 8[0m  [1m   [product-ratings]])[0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var scores.views/product-ratings[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn product-details [][0m
+  [36m11[0m  [36m  (fn [][0m
+  [36m12[0m  [36m    [:div {:id "product-details"} "Bli bli bli"]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/scores/views.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.092 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.072 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/scores/views.cljs   line:20  column:5  ----[0m
+
+  [1mUse of undeclared Var scores.views/product-list[0m
+
+  [36m17[0m  [36m(defn main-panel [][0m
+  [36m18[0m  [36m  [:div[0m
+  [36m19[0m  [36m   [:h2 "Product Page"][0m
+  [33m20[0m  [1m   [product-list][0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var scores.views/product-list[0m
+  [36m21[0m  [36m   [product]])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/scores/views.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.034 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.021 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.066 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.028 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.977 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.05 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.948 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.16 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.963 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.107 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.046 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.031 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.084 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.0 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.082 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.018 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.965 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.014 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.988 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/scores/events.cljs   line:15  column:11  ----[0m
+
+  [1mUse of undeclared Var scores.events/component[0m
+
+  [36m11[0m  [36m(re-frame/reg-fx[0m
+  [36m12[0m  [36m  :render[0m
+  [36m13[0m  [36m  (fn [request][0m
+  [36m14[0m  [36m    (let [component (:component request) [cofx param & more] (:params request)])[0m
+  [33m15[0m  [1m    (case component[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var scores.events/component[0m
+  [36m16[0m  [36m      (:product (views/product param)))))[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(re-frame/reg-event-fx[0m
+  [36m19[0m  [36m :show-product-details[0m
+  [36m20[0m  [36m (fn [cofx [_ product-id]][0m
+
+[36m----  Compiler Warning : Please see src/cljs/scores/events.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/scores/events.cljs   line:16  column:32  ----[0m
+
+  [1mUse of undeclared Var scores.events/param[0m
+
+  [36m12[0m  [36m  :render[0m
+  [36m13[0m  [36m  (fn [request][0m
+  [36m14[0m  [36m    (let [component (:component request) [cofx param & more] (:params request)])[0m
+  [36m15[0m  [36m    (case component[0m
+  [33m16[0m  [1m      (:product (views/product param)))))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var scores.events/param[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(re-frame/reg-event-fx[0m
+  [36m19[0m  [36m :show-product-details[0m
+  [36m20[0m  [36m (fn [cofx [_ product-id]][0m
+  [36m21[0m  [36m   {:render {:component :product[0m
+
+[36m----  Compiler Warning : Please see src/cljs/scores/events.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.09 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/scores/events.cljs   line:15  column:11  ----[0m
+
+  [1mUse of undeclared Var scores.events/component[0m
+
+  [36m11[0m  [36m(re-frame/reg-fx[0m
+  [36m12[0m  [36m  :render[0m
+  [36m13[0m  [36m  (fn [request][0m
+  [36m14[0m  [36m    (let [component (:component request) [cofx param & more] (:params request)])[0m
+  [33m15[0m  [1m    (case component[0m
+  [0m  [0m  [33m          ^--- Use of undeclared Var scores.events/component[0m
+  [36m16[0m  [36m      (:product (views/product param)))))[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(re-frame/reg-event-fx[0m
+  [36m19[0m  [36m :show-product-details[0m
+  [36m20[0m  [36m (fn [cofx [_ product-id]][0m
+
+[36m----  Compiler Warning : Please see src/cljs/scores/events.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/scores/events.cljs   line:16  column:32  ----[0m
+
+  [1mUse of undeclared Var scores.events/param[0m
+
+  [36m12[0m  [36m  :render[0m
+  [36m13[0m  [36m  (fn [request][0m
+  [36m14[0m  [36m    (let [component (:component request) [cofx param & more] (:params request)])[0m
+  [36m15[0m  [36m    (case component[0m
+  [33m16[0m  [1m      (:product (views/product param)))))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var scores.events/param[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(re-frame/reg-event-fx[0m
+  [36m19[0m  [36m :show-product-details[0m
+  [36m20[0m  [36m (fn [cofx [_ product-id]][0m
+  [36m21[0m  [36m   {:render {:component :product[0m
+
+[36m----  Compiler Warning : Please see src/cljs/scores/events.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.368 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.09 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.988 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.993 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.998 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.999 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.032 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/scores/views.cljs   line:17  column:28  ----[0m
+
+  [1mUse of undeclared Var scores.views/console[0m
+
+  [36m13[0m  [36m  (fn [][0m
+  [36m14[0m  [36m    [:a {:href "#"[0m
+  [36m15[0m  [36m         :on-click (fn [e][0m
+  [36m16[0m  [36m                     (.preventDefault e)[0m
+  [33m17[0m  [1m                     (.log console "++++++++++++++++++++++++++++++++++++++++++")[0m
+  [0m  [0m  [33m                           ^--- Use of undeclared Var scores.views/console[0m
+  [36m18[0m  [36m                     (re-frame/dispatch [:show-product-details (:id product)]))}[0m
+  [36m19[0m  [36m     (:name product)]))[0m
+  [36m20[0m  [36m[0m
+  [36m21[0m  [36m(defn product-list [][0m
+  [36m22[0m  [36m  (let [product-list (re-frame/subscribe [:product-list])][0m
+
+[36m----  Compiler Warning : Please see src/cljs/scores/views.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.203 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[31mFailed to compile "resources/public/js/compiled/app.js" in 0.591 seconds.[0m
+[36m----  Could not Analyze  src/cljs/scores/views.cljs   line:17  column:22  ----[0m
+
+  [1mUnknown dot form of (. js/console -log ("++++++++++++++++++++++++++++++++++++++++++")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr][0m
+
+  [36m15[0m  [36m    :on-click (fn [e][0m
+  [36m16[0m  [36m                (.preventDefault e)[0m
+  [33m17[0m  [1m                (.-log js/console "++++++++++++++++++++++++++++++++++++++++++")[0m
+  [0m  [0m  [33m                ^--- Unknown dot form of (. js/console -log ("++++++++++++++++++++++++++++++++++++++++++")) with classification [:cljs.analyzer/expr :cljs.analyzer/property :cljs.analyzer/expr][0m
+  [36m18[0m  [36m                (re-frame/dispatch [:show-product-details (:id product)]))}[0m
+  [36m19[0m  [36m(:name product)]))[0m
+
+[36m----  Analysis Error : Please see src/cljs/scores/views.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.009 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.027 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.996 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.988 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.949 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.032 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.018 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.977 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.951 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.99 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.013 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.905 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.907 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.943 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.939 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.956 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.897 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.91 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.9 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.9 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.898 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.899 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.96 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.953 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.95 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.944 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.012 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.949 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.035 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.98 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.97 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.955 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.972 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.004 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.895 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.95 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.024 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/db.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.969 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.901 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.979 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.962 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.94 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.948 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.017 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.905 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.919 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.974 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.904 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/subs.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.904 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/events.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.971 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.946 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.977 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.95 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.939 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/views.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.895 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/scores/core.js
