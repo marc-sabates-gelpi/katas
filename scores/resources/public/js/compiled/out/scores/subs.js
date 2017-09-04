@@ -9,4 +9,4 @@ re_frame.core.reg_sub.call(null,new cljs.core.Keyword(null,"current-displayed-pr
 return new cljs.core.Keyword(null,"current-displayed-product","current-displayed-product",-1795767584).cljs$core$IFn$_invoke$arity$1(db);
 }));
 
-//# sourceMappingURL=subs.js.map?rel=1504467514005
+//# sourceMappingURL=subs.js.map?rel=1504549425429
