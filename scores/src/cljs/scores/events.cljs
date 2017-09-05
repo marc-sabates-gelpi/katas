@@ -11,6 +11,22 @@
 
 (re-frame/reg-event-db
   :show-product-details
-  (fn [db [_ product-id]]
-    (assoc db :current-displayed-product product-id)))
+  (fn [db [_ product]]
+    (assoc db :current-displayed-product product :add-rating-form false)))
 
+(re-frame/reg-event-db
+ :show-add-rating-form
+ (fn [db _]
+   (assoc db :add-rating-form true)))
+
+(re-frame/reg-event-db
+ :hide-add-rating-form
+ (fn [db _]
+   (assoc db :add-rating-form false)))
+
+(re-frame/reg-event-db
+ :submit-rating
+ (fn [db [_ product-id rating]]
+   (-> db
+       (assoc :add-rating-form false)
+       (update-in [:products product-id :ratings] conj rating))))

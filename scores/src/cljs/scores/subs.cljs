@@ -3,11 +3,16 @@
   (:require [re-frame.core :as re-frame]))
 
 (re-frame/reg-sub
- :product-list
+ :products
  (fn [db _]
-   (:product-list db)))
+   (:products db)))
 
 (re-frame/reg-sub
  :current-displayed-product
  (fn [db _]
    (:current-displayed-product db)))
+
+(re-frame/reg-sub
+ :add-rating-form
+ (fn [db _]
+   (:add-rating-form db)))
