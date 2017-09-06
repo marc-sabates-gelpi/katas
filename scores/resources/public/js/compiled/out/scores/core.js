@@ -30,4 +30,4 @@ return scores.core.mount_root.call(null);
 });
 goog.exportSymbol('scores.core.init', scores.core.init);
 
-//# sourceMappingURL=core.js.map?rel=1504643950378
+//# sourceMappingURL=core.js.map?rel=1504734335698

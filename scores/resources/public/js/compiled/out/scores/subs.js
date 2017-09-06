@@ -12,4 +12,4 @@ re_frame.core.reg_sub.call(null,new cljs.core.Keyword(null,"add-rating-form","ad
 return new cljs.core.Keyword(null,"add-rating-form","add-rating-form",1147769512).cljs$core$IFn$_invoke$arity$1(db);
 }));
 
-//# sourceMappingURL=subs.js.map?rel=1504640491394
+//# sourceMappingURL=subs.js.map?rel=1504733881265
